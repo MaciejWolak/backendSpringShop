@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.io.IOException;
 import java.util.List;
 
-@CrossOrigin("https://anggtest.herokuapp.com")
+@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/")
 public class ProductController {
